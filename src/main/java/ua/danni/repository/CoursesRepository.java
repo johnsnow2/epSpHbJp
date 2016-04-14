@@ -7,7 +7,7 @@ import ua.danni.entity.Courses;
 @Component
 public interface CoursesRepository extends JpaRepository<Courses, Integer> {
 
-       Courses findByName(String name);
+       //Courses findByName(String name);
 
 
 }

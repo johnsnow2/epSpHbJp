@@ -27,7 +27,7 @@ public class AdminController {
     @RequestMapping(value="/admin/list_courses_adm", method = RequestMethod.GET)
     public ModelAndView listCourses() {
         //coursesService.getAll()
-        return new ModelAndView("list_courses_adm","coursesList","cs");
+        return new ModelAndView("list_courses_adm","coursesList",coursesService.getAll());
 
     }
 

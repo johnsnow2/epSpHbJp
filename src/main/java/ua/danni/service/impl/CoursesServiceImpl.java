@@ -34,12 +34,12 @@ public class CoursesServiceImpl implements CoursesService {
         coursesRepository.delete(id);
     }
 
-  // @Override
+  /*@Override
     public Courses getByName(String name) {
        //Query query = entityManager. createQuery("Select courseName from CousesEntity ");
        //@Query("select b from CousesEntity b where b.courseName = :name")
         return coursesRepository.findByName(name);
-    }
+    }*/
 
     @Override
     public Courses editCourses(Courses courses) {
